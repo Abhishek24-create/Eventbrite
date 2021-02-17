@@ -1,0 +1,366 @@
+<html lang="en">
+<head>
+    <title>Eventbrite</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+ <style>
+ .footer{
+  background:#4B0082;
+  color:white;
+
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }
+ .about-company{
+    i{font-size: 25px;}
+    a{
+      color:blue;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  }
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);}
+}
+
+  </style>
+  <body>
+
+
+
+    <nav class="navbar navbar-expand-sm   navbar-light bg-#fff" >
+         <a class="navbar-brand" href="/" style="color:red;font-family:cursive;font-size:25px;">eventbrite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navbar-right" id="navbarTogglerDemo03">
+             <div class="col-sm-3 col-md-3">
+        <form class="navbar-form bg-#fff" role="search">
+        <div class="input-group">
+            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            <input type="text" class="form-control" placeholder="Search" name="q">
+            <div class="input-group-btn">
+
+            </div>
+        </div>
+        </form>
+    </div>
+
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-right">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Brwose Events<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar1" data-toggle="dropdown">
+              Host an Event
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="#">Why Eventbrite</a>
+              <a class="dropdown-item" href="#">Pricing</a>
+              <a class="dropdown-item" href="#">Resorces</a>
+              <a class="dropdown-item" href="#">Create a Event</a>
+            </div>
+          </li>
+
+           <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar2" data-toggle="dropdown">
+              Help
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="#">Find your tickets</a>
+              <a class="dropdown-item" href="#">Contact an event organizer</a>
+              <a class="dropdown-item" href="#">Visit the help enter</a>
+              </div>
+          </li>
+                <li class="nav-item dropdown dmenu float-right">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar3" data-toggle="dropdown">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              ay06291@gmail.com
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="#">Tickets(0))</a>
+              <a class="dropdown-item" href="#">Credits</a>
+              <a class="dropdown-item" href="#">Liked</a>
+              <a class="dropdown-item" href="#">Following</a>
+              <a class="dropdown-item" href="#">Collections</a>
+              <a class="dropdown-item" href="#">Intrests</a>
+              <a class="dropdown-item" href="#">Account settings</a>
+              <a class="dropdown-item" href="#">Logout</a>
+              </div>
+          </li>
+
+
+          </ul>
+          <div class="social-part">
+<!--            <i class="fa fa-facebook" aria-hidden="true"></i>-->
+<!--            <i class="fa fa-twitter" aria-hidden="true"></i>-->
+<!--            <i class="fa fa-instagram" aria-hidden="true"></i>-->
+          </div>
+
+        </div>
+      </nav>
+<br><br><br>
+<!--  h1 {-->
+<!--  border: 1px #9bc solid;-->
+<!--  margin-bottom: 2em;-->
+<!--}-->
+<!--.Abhi{-->
+<!--       text-indent: 3em;-->
+<!--       padding-left: 3em;-->
+<!--       margin-left: 3em;-->
+<!--       transform: translateX(3em);-->
+<!--       position: relative; left: 3em;-->
+<!--}-->
+
+   <div class="col-sm-12">
+          <h1 class="Abhi" style=" font-size: 60px; display: block;color: var(--eds-ui-900,#1e0a3c);margin-bottom: 0em; text-indent: 1em;font-family: Times New Roman;"><span>Likes</span></h1>
+   </div>
+<br><br>
+
+     <div class="container">
+        <div class="row">
+            <div class="col-sm-11 shadow">
+                <div class="row ">
+                     <div class="col-sm-4">
+                         <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F106232768%2F282824961643%2F1%2Foriginal.20200715-200553?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C21%2C274%2C137&s=bed29b73025f8c2b5105bcdf78e653ed" style="width:70%;margin:auto">
+                     </div>
+                    <div class="col-sm-8">
+                        <h5>Monthly Wellness Wednesday: An Hour for You & Your Wellbeing</h5>
+                        <p>Wed, Feb 24, 2021 10:30 PM IST + 1 more even</p>
+                        <p>Free</p>
+                         <i class=" float-right fa fa-heart" data-toggle="popover" title="Add event to a collection"
+                            data-content="Make plans Share them with firends, and always know what you're doing next" style="color:red"></i>
+                         <i class=" float-right fa fa-upload"  data-toggle='modal' data-target='#mModal' style="color:black;"></i>
+
+                    </div>
+                </div>
+
+</div>
+        </div>
+    </div>  <br><br>
+    <div class="modal fade" id="mModal">
+                        <div class="modal-dialog modal-lg-8">
+                          <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title " style="text-align:center;">Share with</h4>
+                            </div>
+<br>
+                            <!-- Modal body -->
+                            <div class="modal-body" style="text-align:center;">
+                                 <i class="fa fa-facebook"  style="color:black;"></i>
+                                 <i class="fa fa-comment"></i>
+                                 <i class="fa fa-twitter" style="color:black;"></i>
+                                 <i class="fa fa-envelope"  style="color:black;"></i>
+                            </div>
+                           <center> <div class="border-simulation">
+                                  <div class="internal">
+                                      <div class="input-conntainer">
+                                          <div class="label-wrapper">
+                                              <label class="styled-label" >
+                                                  <span class="content">
+                                                      Event Url
+                                                  </span>
+                                              </label>
+                                          </div>
+                                          <input data-spec="input-field-input-element" class="input--has-suffix" role="textbox"
+                                                 data-toggle="tooltip" data-placement="right" title="Copied!"
+                                                 readonly value="https://www.eventbrite.com/e/monthly-wellness-wednesday-an-hour-for-you-your-wellbeing-tickets-
+                                                 113687546512?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&utm-source=up&utm-term=user-profile">
+                                      </div>
+                                  </div>
+                              </div></center>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+     <div class="container">
+        <div class="row">
+            <div class="col-sm-11 shadow">
+                <div class="row ">
+                     <div class="col-sm-4">
+                         <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F125073173%2F485586024857%2F1%2Foriginal.20210203-193029?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C58%2C5000%2C2500&s=66104b87a58c2572cab3b1cc16c5928e" style="width:70%;margin:auto">
+                     </div>
+                    <div class="col-sm-8">
+                        <h5>MIT Sloan FinTech Conference 2021</h5>
+                        <p>Fri, Mar 5, 2021 6:30 PM IST</p>
+                       <p>Starts at $30.00</p>
+                        <i class=" float-right fa fa-heart" data-toggle="popover" title="Add event to a collection"
+                            data-content="Make plans Share them with firends, and always know what you're doing next" style="color:red"></i>
+                        <i class=" float-right fa fa-upload"  data-toggle='modal' data-target='#myModal' style="color:black;"></i>
+
+                        </div>
+
+                     </div>
+                </div>
+
+</div>
+        </div>
+
+   <br><br>
+    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-lg-8">
+                          <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title " style="text-align:center;">Share with</h4>
+                            </div>
+<br>
+                            <!-- Modal body -->
+                            <div class="modal-body" style="text-align:center;">
+                                 <i class="fa fa-facebook"  style="color:black;"></i>
+                                 <i class="fa fa-comment"></i>
+                                 <i class="fa fa-twitter" style="color:black;"></i>
+                                 <i class="fa fa-envelope"  style="color:black;"></i>
+                            </div>
+                             <center> <div class="border-simulation">
+                                  <div class="internal">
+                                      <div class="input-conntainer">
+                                          <div class="label-wrapper">
+                                              <label class="styled-label" >
+                                                  <span class="content">
+                                                      Event Url
+                                                  </span>
+                                              </label>
+                                          </div>
+                                          <input data-spec="input-field-input-element" class="input--has-suffix" role="textbox"
+                                                 data-toggle="tooltip" data-placement="right" title="Copied!"
+                                                 readonly value="https://www.eventbrite.com/e/monthly-wellness-wednesday-an-hour-for-you-your-wellbeing-tickets-
+                                                 113687546512?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&utm-source=up&utm-term=user-profile">
+                                      </div>
+                                  </div>
+                              </div></center>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-11 shadow">
+                <div class="row ">
+                     <div class="col-sm-4">
+                         <img src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F107523925%2F81112102855%2F1%2Foriginal.20200801-160340?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1280%2C640&s=b435e54d30680866e0aa44af595cd588" style="width:70%;margin:auto">
+                     </div>
+                    <div class="col-sm-8">
+                        <h5>Knee Pain Corrective Exercise Workshop - For Women Only</h5>
+                         <p>Sun, Feb 21, 2021 9:30 PM IST + 1 more event</p>
+                         <p>Free</p>
+                          <i class=" float-right fa fa-heart" data-toggle="popover" title="Add event to a collection"
+                            data-content="Make plans Share them with firends, and always know what you're doing next" style="color:red"></i>
+                         <i class=" float-right fa fa-upload"  data-toggle='modal' data-target='#Modal' style="color:black;"></i>
+                     </div>
+                </div>
+
+</div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal">
+                        <div class="modal-dialog modal-lg-8">
+                          <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title " style="text-align:center;">Share with</h4>
+
+                            </div>
+<br>
+                            <!-- Modal body -->
+                            <div class="modal-body" style="text-align:center;">
+                                 <i class="fa fa-facebook"  style="color:black;"></i>
+                                 <i class="fa fa-comment"></i>
+                                 <i class="fa fa-twitter" style="color:black;"></i>
+                                 <i class="fa fa-envelope"  style="color:black;"></i>
+                            </div>
+                             <center> <div class="border-simulation">
+                                  <div class="internal">
+                                      <div class="input-conntainer">
+                                          <div class="label-wrapper">
+                                              <label class="styled-label" >
+                                                  <span class="content">
+                                                      Event Url
+                                                  </span>
+                                              </label>
+                                          </div>
+                                          <input data-spec="input-field-input-element" class="input--has-suffix" role="textbox"
+                                                 data-toggle="tooltip" data-placement="right" title="Copied!"
+                                                 readonly value="https://www.eventbrite.com/e/monthly-wellness-wednesday-an-hour-for-you-your-wellbeing-tickets-
+                                                 113687546512?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&utm-source=up&utm-term=user-profile">
+                                      </div>
+                                  </div>
+                              </div></center>
+
+
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+   <script type="text/javascript">
+$(document).ready(function () {
+$('.navbar-light .dmenu').hover(function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+    });
+});
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+
+</script>
+  <div class="mt-5 pb-5 footer">
+    <div class="col copyright">
+      <p class=""><small class="text-white-50">© 2021. All Rights Reserved.</small></p>
+    </div>
+
+  </div>
+
+
+
+</body>
+</html>
